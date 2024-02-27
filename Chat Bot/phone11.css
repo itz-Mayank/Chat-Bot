@@ -1,0 +1,156 @@
+* {
+  /* box-sizing: border-box;
+  margin: auto;
+  padding-left: 21px;
+  align-items: center;
+  margin: 2px 112px;
+  justify-content: center;
+  text-align: center;
+  display: grid; */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(18, 1, 1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: table-row;
+  }
+
+
+/* navbar */
+nav {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  height: 140px;
+}
+  
+img{
+  height: 80px;
+  width: 80px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 100%;
+  display: flex;
+  margin: 3px 0px;
+}
+p1{
+  font-size: 3rem;
+  padding: 20px 20px ;
+  justify-content: center;
+}
+element.style {
+}
+nav {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+  /* box */
+.box{
+    padding: -36px 20px;
+    margin: -71px 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-size: 1rem; */
+  }
+  
+  .box ul li p{
+    display: grid;
+    height: 150px;
+    width: 550px;
+    /* border: 2px solid white; */
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 56px 13px;
+    color: white;
+    font-size: 3rem;
+    padding: 20px 50px;
+  }
+  .box a{
+      display: grid;
+      height: 120px;
+      width: 550px;
+      border: 2px solid white;
+      border-radius: 100px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      /* padding: 38px 35px; */
+      margin: 8px 13px;
+      padding: 8px 30px;
+      color: white;
+      font-size: 30px;
+
+  }
+
+.font{
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: auto;
+  margin-top: 13px;
+  font-size: 2rem;
+
+}
+
+.logo{
+  /* margin: 40px 0px; */
+  height: 80px;
+}
+
+.chat {
+  /* max-width: 80px; */
+  /* display: flex; */
+  margin: 20px auto;
+  /* border: 1px solid #ccc; */
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #ccc;
+}
+
+/* Mesage bar */
+.chat-input {
+  display: flex;
+  margin-top: 10px;
+  border-radius: 100px;
+  width: 480px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 70px;
+  color: #ccc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+
+.chat-input button {
+  padding: 5px 5px;
+  margin-left: 5px;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  /* color: rgb(255, 255, 255); */
+  background-color: rgb(71, 5, 5);
+}
+
+h1{
+  margin-top: 55px;
+}

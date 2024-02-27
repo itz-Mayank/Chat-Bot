@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+    
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(18, 1, 1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  nav {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+  }
+  nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 10px 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 0.1s ease;
+    margin: 1px 15px;
+  }
+  nav .mainMenu li a:hover {
+    color: black;
+    background: rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+  }
+  nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {
+    color: rgb(0, 110, 255);
+  }
+  .fa-twitter:hover {
+    color: rgb(86, 154, 243);
+  }
+  .fa-instagram:hover {
+    color: rgb(255, 0, 191);
+  }
+  .fa-github:hover {
+    color: rgb(255, 123, 0);
+  }
+
+  .fa-google:hover {
+    color: rgb(106, 3, 3);
+  }
+  nav .logo {
+    margin: 8px 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: flex;
+  }
+  @media (max-width: 800px) {
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgb(0, 0, 0);
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    }
+    .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+  }
+
+  img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    display: flex;
+    margin: 3px 0px;
+  }
+  p1{
+    font-size: 2rem;
+    padding: 10px 10px ;
+    justify-content: center;
+  }
+
+/* box */
+.box{
+  padding: 5px 5px;
+  margin: -15px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box ul li p{
+  display: grid;
+  height: 50px;
+  width: 350px;
+  /* border: 2px solid white; */
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 56px 13px;
+  color: white;
+  font-size: 2rem;
+}
+.box a{
+    display: grid;
+    height: 50px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* padding: 38px 35px; */
+    margin: 16px 13px;
+    color: white;
+}
+
+.font{
+  font-size: 2rem;
+  display: flex;
+  color: white;
+  margin: 12px 0px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo1{
+  color:white;
+  margin: 0px 12px;
+  size: 2rem;
+  
+  
+}
+.logo{
+  color:white;
+  padding: 5px 0px;
+}
+
+/* chat */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.chat {
+  max-width: 1000px;
+  /* display: flex; */
+  margin: 20px auto;
+  /* border: 1px solid #ccc; */
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #ccc;
+}
+
+/* .chat-window {
+  height: 300px;
+  overflow-y: scroll;
+  padding: 5px 10px;
+  color: rgb(176, 163, 163);
+  border-radius: 50px;
+} */
+
+.chat-input {
+  display: flex;
+  margin-top: 10px;
+  border-radius: 50px;
+  width: 800px;
+  margin-top: 30px;
+  margin-left: 90px;
+  color: #ccc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+
+.chat-input button {
+  padding: 5px 5px;
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  /* color: rgb(255, 255, 255); */
+  background-color: rgb(71, 5, 5);
+}
+
+/* Assuming you're using Font Awesome for the paper plane icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Adjust these styles to match your design */
+.chat-input input {
+  display: grid;
+  width: auto;
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 100px;
+}
+.chat-input input:hover {
+  background-color: #000000;
+  color: white;
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 100px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.send-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add the following styles to the existing CSS */
+
+/* Font Awesome icon styles */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.chat-input button {
+    padding: 5px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.chat-input button:hover {
+    background-color: #250202;
+    border: 2px solid white;
+}
+
+.user-message {
+  color: #fff;
+}
+.bot-message {
+  color: #51ffeb;
+}
+.chat-header{
+  color: rgb(255, 52, 52);
+}
